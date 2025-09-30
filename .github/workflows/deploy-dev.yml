@@ -14,7 +14,7 @@ jobs:
         run: npm i
 
       - name: 빌드하기
-        run: npm build
+        run: npm run build
 
       - name: AWS 인증 추가
         uses: aws-actions/configure-aws-credentials@v4
