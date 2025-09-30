@@ -19,6 +19,7 @@ function App() {
       <h1>Vite + React</h1>
       <h2>개발용 코드입니다 ! </h2>
       <h3>로그인 기능 구현</h3>
+      <h4>버그수정</h4>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
